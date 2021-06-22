@@ -1,6 +1,7 @@
 # School Project
 ## Simple CRUD website for simple "companies".
 Fully responsive CRUD website, having google map with custom markers. Website hosted locally with XAMPP.
+I'm not sure what a professional blend of HTML and PHP should look like, and with "Prettier" (Visual Studio Code plugin) there is some spaghetti code.
 
 ## Technologies:
 
@@ -10,10 +11,10 @@ Fully responsive CRUD website, having google map with custom markers. Website ho
 [![Sass](https://img.shields.io/badge/-Sass-pink?style=flat-square&logo=Sass)]()
 
 Login page
-![login page](/assets/images/p1.png "login page")
+![login page](/firma/assets/images/p1.png "login page")
 Main page
-![main page](/assets/images/p2.png "main page")
+![main page](/firma/assets/images/p2.png "main page")
 Main page for mobile
-![mobile main page](/assets/images/p3.png "mobile main page")
+![mobile main page](/firma/assets/images/p3.png "mobile main page")
 Page with google map for mobile
-![mobile page with map](/assets/images/p4.png "mobile page with map")
+![mobile page with map](/firma/assets/images/p4.png "mobile page with map")
