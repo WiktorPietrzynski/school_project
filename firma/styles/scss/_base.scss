@@ -1,0 +1,268 @@
+html {
+	display: block;
+}
+main{
+	overflow-x: hidden;
+}
+
+button:disabled {
+	filter: grayscale(100%);
+}
+
+.title {
+	&--big {
+		font-size: 2rem;
+	}
+	&--medium {
+		font-size: 1.5rem;
+	}
+	&--small {
+		font-size: 1rem;
+	}
+}
+
+.form__message {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	text-align: center;
+	font-size: 1.25rem;
+	color: red;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+	&--valid {
+		opacity: 0;
+		visibility: hidden;
+	}
+	&--red{
+		color:red;
+	}
+	&--green{
+		color:green;
+	}
+}
+
+.section {
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #0c0f15;
+	overflow: auto;
+	&__column{
+		display:flex;
+		flex-direction:column;
+		&--raports{
+			min-width:45%;
+		}
+	}
+	&__header{
+		margin-top:5%;
+		//font-family:"Comic Sans MS";
+	}
+	&__title{
+		color:white;
+		text-align:center;
+		font-size:32px;
+		letter-spacing:3px;
+	}
+	&__content{
+		margin-bottom:5%;
+		padding-left:10%;
+		padding-right:10%;
+		display:flex;
+		align-items:center;
+		justify-content:space-around;
+		flex-wrap:wrap;
+		&--column{
+			flex-direction: column;
+		}
+		&--raports{
+			margin-top:5%;
+			align-items:start;
+		}
+	}
+	&__button{
+		margin-top:1%;
+		margin-left:auto;
+		margin-right:auto;
+		line-height:45px;
+		outline: none;
+		border:none;
+		width:50%;
+		color:white;
+		text-align:center;
+		background-color: #1D2534;
+		cursor:pointer;
+		&:hover{
+			filter:brightness(1.5);
+		}
+		&:active{
+			transform:scale(0.9);
+			filter: saturate(200%);
+		}
+	}
+}
+
+.picture{
+	margin-top:5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__img{
+		max-width: 300px;
+		height: auto;
+	}
+}
+
+.wrapper{
+	&--index{
+		margin-top:5%;
+		width:300px;
+		height:450px;
+		overflow:hidden;
+		background-color:#161C27;
+
+	}
+}
+
+.forms{
+	width:600px;
+	display:flex;
+	transition: all 1s ease-in-out;
+}
+
+.form{
+	display:flex;
+	flex-direction:column;
+	width:300px;
+	height:350px;
+	margin-left:25px;
+	margin-right:25px;
+	&--double{
+		min-width:300px;
+		width:100%;
+		max-width:500px;
+		display:flex;
+		flex-direction:column;
+		flex-wrap:wrap;
+	}
+	&__row{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	&__label{
+		margin-top:2.5%;
+		color:white;
+		line-height:30px;
+		font-size:1.2rem;
+		display:flex;
+		flex-direction:column;
+	}
+	&__input{
+		margin-top:2.5%;
+		border:solid 3px black;
+		background:transparent;
+		line-height:30px;
+		color:white;
+	}
+	&__select{
+		border:solid 3px black;
+		background:transparent;
+		line-height:30px;
+		min-height:30px;
+		color:white;
+	}
+	&__option{
+		background-color:black;
+	}
+	&__submit{
+		margin-top:10%;
+		margin-left:auto;
+		margin-right:auto;
+		line-height:45px;
+		outline: none;
+		border:none;
+		width:50%;
+		color:white;
+		text-align:center;
+		background-color: #1D2534;
+		cursor:pointer;
+		&:hover{
+			filter:brightness(1.5);
+		}
+		&:active{
+			transform:scale(0.9);
+			filter: saturate(200%);
+		}
+	}
+
+}
+
+.buttons{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+}
+.button{
+	line-height:45px;
+	outline: none;
+	border:none;
+	width:50%;
+	color:white;
+	background-color: #1D2534;
+	cursor:pointer;
+	&--clicked{
+		background-color: #161C27;
+	}
+}
+
+
+.article {
+	margin-top: 2%;
+	background-color: #333;
+	min-width: 300px;
+	width: 100%;
+	max-width: 700px;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	padding: 1% 1%;
+	color: white;
+	&--workers{
+		border: double 3px red;
+	}
+	&--contractors{
+		border: double 3px green;
+	}
+	&--services{
+		border:double 3px orange;
+	}
+	&--raports{
+		border:double 3px purple;
+	}
+	&--branches{
+		border:double 3px blue;
+	}
+	&:hover{
+		background-color:#555;
+	}
+	&__header{
+		margin:10px 10px;
+	}
+	&__content{
+		margin: 10px 10px;
+		font-size:1.05rem;
+	}
+	&__buttons{
+		display:flex;
+		justify-content:space-around;
+	}
+	&__button{
+		margin:10px 10px;
+	}
+	&__icon{
+		color:white;
+		cursor:pointer;
+	}
+}
+/* additional*/
