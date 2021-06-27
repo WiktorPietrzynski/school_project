@@ -11,11 +11,13 @@ I'm not sure what a professional blend of HTML and PHP should look like, and wit
 [![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white)]()
 [![Sass](https://img.shields.io/badge/-Sass-pink?style=flat-square&logo=Sass)]()
 
+## Screenshots:
+
 Login page
-![login page](/firma/assets/images/p1.png "login page")
+![login page](/screenshots/p1.png "login page")
 Main page
-![main page](/firma/assets/images/p2.png "main page")
+![main page](/screenshots/p2.png "main page")
 Main page for mobile
-![mobile main page](/firma/assets/images/p3.png "mobile main page")
+![mobile main page](/screenshots/p3.png "mobile main page")
 Page with google map for mobile
-![mobile page with map](/firma/assets/images/p4.png "mobile page with map")
+![mobile page with map](/screenshots/p4.png "mobile page with map")
